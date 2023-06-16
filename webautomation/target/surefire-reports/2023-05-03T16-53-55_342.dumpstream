@@ -1,0 +1,5 @@
+# Created at 2023-05-03T16:53:56.349
+Boot Manifest-JAR contains absolute paths in classpath 'd:\Janki\Automation\NSWEB\webautomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

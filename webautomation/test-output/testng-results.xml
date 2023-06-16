@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T11:09:50 IST" name="NS Web Suite" finished-at="2023-06-16T11:10:48 IST" duration-ms="58220">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-16T11:09:50 IST" name="RegressionSuite" finished-at="2023-06-16T11:10:48 IST" duration-ms="58220">
+      <class name="com.example.TestRunner.TestngTestRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" started-at="2023-06-16T11:09:50 IST" name="setUpClass" finished-at="2023-06-16T11:09:51 IST" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49d979c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" started-at="2023-06-16T11:09:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-16T11:10:35 IST" duration-ms="43948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login with Mobile Number and OTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Login Functionality with mobile number and OTP]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" started-at="2023-06-16T11:10:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-16T11:10:44 IST" duration-ms="9347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to create group"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Create Group and User functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" started-at="2023-06-16T11:10:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-16T11:10:48 IST" duration-ms="3311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to create Drive"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Create Group and User functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@4c6e276e]" started-at="2023-06-16T11:10:48 IST" name="tearDownClass" finished-at="2023-06-16T11:10:48 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.example.TestRunner.TestngTestRunnerTest -->
+    </test> <!-- RegressionSuite -->
+  </suite> <!-- NS Web Suite -->
+</testng-results>
