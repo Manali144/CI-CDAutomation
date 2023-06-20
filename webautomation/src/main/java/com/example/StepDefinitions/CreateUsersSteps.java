@@ -17,7 +17,7 @@ public class CreateUsersSteps extends Baseclass {
 
 	private Baseclass base;
 
-   public static final String FullName = "Test";
+   public static final String FullName = "Test123";
 	public static final String MobileNo =  String.valueOf(Math.floor(Math.random() * 1000000000) + 1000000000);
 	public static final String Email = "testing" + String.valueOf(Math.round(Math.random() * 1000) + "@gmail.com");
 
