@@ -17,6 +17,10 @@ public class CreateUsersSteps extends Baseclass {
 
 	private Baseclass base;
 
+   public static final String FullName = "Test";
+	public static final String MobileNo =  String.valueOf(Math.floor(Math.random() * 1000000000) + 1000000000);
+	public static final String Email = "testing" + String.valueOf(Math.round(Math.random() * 1000) + "@gmail.com");
+
 	public CreateUsersSteps(Baseclass base) {
 		this.base = base;
 	}
@@ -68,7 +72,7 @@ public class CreateUsersSteps extends Baseclass {
 
 		CreateUsers Createusers = testContextSetup.pageObjectManager.getCreateUsers();
 
-		Createusers.enterFullName(FullName);
+		Createusers.enterFullName(CreateUsersSteps.FullName);
 
 	}
 
@@ -78,7 +82,7 @@ public class CreateUsersSteps extends Baseclass {
 		
 		CreateUsers Createusers = testContextSetup.pageObjectManager.getCreateUsers();
 
-		Createusers.enterMobileNumber(MobileNo);
+		Createusers.enterMobileNumber(CreateUsersSteps.MobileNo);
 
 	}
 	
@@ -89,7 +93,7 @@ public class CreateUsersSteps extends Baseclass {
 		
 		CreateUsers Createusers = testContextSetup.pageObjectManager.getCreateUsers();
 
-		Createusers.enterEmail(Email);
+		Createusers.enterEmail(CreateUsersSteps.Email);
 
 	}
 

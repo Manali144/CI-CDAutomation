@@ -2,6 +2,8 @@ package com.example.StepDefinitions;
 
 import java.io.IOException;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 import com.example.PageObjects.FleetManagement;
 import com.example.PageObjects.LoginWithMobile;
 import com.example.PageObjects.PageObjectManager;
@@ -16,6 +18,9 @@ import io.cucumber.java.en.When;
 public class FleetManagementSteps extends Baseclass {
 
 	private Baseclass base;
+
+	public static final String GroupName = "APITesting" + RandomStringUtils.random(5, true, true);
+	public static final String Description = "APITesting" + RandomStringUtils.random(5, true, true);
 
 	public FleetManagementSteps(Baseclass base) {
 		this.base = base;
@@ -61,7 +66,7 @@ public class FleetManagementSteps extends Baseclass {
 
 	public void user_enters_the_GroupName_as_Group_name(String GroupName) throws Throwable {
 		FleetManagement Fleetmanagement = testContextSetup.pageObjectManager.getFleetManagement();
-		Fleetmanagement.enterGroupName(GroupName);
+		Fleetmanagement.enterGroupName(FleetManagementSteps.GroupName);
 
 	}
 
@@ -69,7 +74,7 @@ public class FleetManagementSteps extends Baseclass {
 
 	public void user_enters_the_Description_as_description(String Description) throws Throwable {
 		FleetManagement Fleetmanagement = testContextSetup.pageObjectManager.getFleetManagement();
-		Fleetmanagement.enterGroupDescription(Description);
+		Fleetmanagement.enterGroupDescription(FleetManagementSteps.Description);
 
 	}
 

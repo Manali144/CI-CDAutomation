@@ -17,10 +17,10 @@ Scenario Outline: Verify user is able to create group
     Then User click on CreateGroup button and verify success message
   #  Then closes the browser
 
-    Examples: 
-    | GroupName | Description |
-     |  qaaq | TestAutomation |
-      
+    #Examples: 
+    #| GroupName | Description |
+     #|  qaaq | TestAutomation |
+      #
       
   Scenario Outline: Verify user is able to create Drive
  #  Given User must be logged in with Corporate Customer
@@ -33,9 +33,9 @@ Scenario Outline: Verify user is able to create group
     Then User click on CreateUser button and verify success message
     Then closes the browser
 
-    Examples: 
-      | FullName | MobileNo | Email |
-      |   TestG | 2030451074 |testouee@yopmail.com |
+    #Examples: 
+      #| FullName | MobileNo | Email |
+      #|   TestG | 2030451074 |testouee@yopmail.com |
   
   
  
