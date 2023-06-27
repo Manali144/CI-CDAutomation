@@ -31,7 +31,9 @@ Scenario Outline: Verify user is able to create group
     When user enters the MobileNo as <MobileNo> MobileNo
     When user enters the Email as <Email> Email
     Then User click on CreateUser button and verify success message
+   # Then User click on fleet management back button
     Then closes the browser
+    
 
     #Examples: 
       #| FullName | MobileNo | Email |

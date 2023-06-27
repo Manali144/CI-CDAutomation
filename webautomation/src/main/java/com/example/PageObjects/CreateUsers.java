@@ -91,5 +91,20 @@ public class CreateUsers extends GenericUtils {
 		log.info("STEP:Click on create User button  Successfully" + "Create_User_Button");
 
 	}
+	
+	
+	
+	
+	public void verifyDriverSuccessmessage() throws InterruptedException {
+		clickOnElement(locators.getKey("Driver_Success_message"));
+		log.info("STEP:Verify success message" + "Driver_Success_message");
+
+	}
+	
+	public void clickOnBackButton() throws InterruptedException {
+		clickOnElement(locators.getKey("Back_Button"));
+		log.info("STEP:Click on Back button" + "Back_Button");
+
+	}
 
 }
